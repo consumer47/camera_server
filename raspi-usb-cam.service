@@ -1,0 +1,16 @@
+[Unit]
+Description=Raspi Camera Service
+After=network.target
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/home/pi/kamen-street-pi
+ExecStart=/usr/bin/python3 ./camera/usb_camera_streamer.py
+Restart=always
+RestartSec=10
+#StartLimitInterval=0
+
+[Install]
+WantedBy=multi-user.target
+

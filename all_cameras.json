@@ -1,0 +1,9 @@
+[
+    {
+        "name": "front",
+        "type": "usbcamera",
+        "resolution": "640x480",
+        "rotation": 0,
+        "port": 8010
+    }
+]

@@ -1,0 +1,30 @@
+{
+    "configurations": [
+        {
+            "name": "Camera Master",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "camera_master.py",
+            "sudo": true,
+            // "args": [
+            //     "--camera", "picamera",
+            //     "--rotation", "90",
+            //     "--resolution", "640x480",
+            //     "--port", "8000"
+            // ]
+        },
+        {
+            "name": "Camera pi cam only",
+            "type": "debugpy",
+            "request": "launch",
+            "program": "pi_camera_streamer.py",
+            "sudo": true,
+            // "args": [
+            //     "--camera", "picamera",
+            //     "--rotation", "90",
+            //     "--resolution", "640x480",
+            //     "--port", "8000"
+            // ]
+        }
+    ]
+}
