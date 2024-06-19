@@ -4,6 +4,7 @@ from pi_camera_streamer import start_picamera_stream
 from usb_camera_streamer import CameraStreamer, start_usb_stream
 import cv2
 
+
 def start_camera_stream(config):
     # Map the rotation argument to the corresponding OpenCV rotation code
     rotation_mapping = {
